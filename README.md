@@ -32,6 +32,3 @@
 * **ลิงก์ผลงาน:** [ดูหน้าโปรไฟล์](https://github.com/Runchaya52/Runchaya-)
 
 ---
-
-## 📊 สถิติ GitHub ของฉัน
-![Runchaya52's GitHub stats](https://github-readme-stats.vercel.app/api?username=Runchaya52&show_icons=true&theme=radical)
