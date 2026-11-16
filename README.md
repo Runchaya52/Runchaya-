@@ -35,5 +35,3 @@
 
 ## 📊 สถิติ GitHub ของฉัน
 ![Runchaya52's GitHub stats](https://github-readme-stats.vercel.app/api?username=Runchaya52&show_icons=true&theme=radical)
-
-https://github.com/user-attachments/assets/61102d1b-5eb1-4ec0-9739-c0e695a9eef0
