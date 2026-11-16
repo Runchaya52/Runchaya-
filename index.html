@@ -7,7 +7,6 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      /* พื้นหลังไล่เฉดสีพาสเทล ชมพู-ม่วง-ฟ้า */
       background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
       margin: 0;
       padding: 40px 20px;
@@ -33,20 +32,14 @@
       margin-top: 15px;
       border: 4px solid #fff;
     }
-    h1 {
-      color: #6a1b9a;
-      font-size: 28px;
-    }
+    h1 { color: #6a1b9a; font-size: 28px; }
     h2 {
       color: #8e24aa;
       border-bottom: 2px solid #f3e5f5;
       padding-bottom: 8px;
       margin-top: 32px;
     }
-    p, li {
-      line-height: 1.7;
-      font-size: 16px;
-    }
+    p, li { line-height: 1.7; font-size: 16px; }
     .skills-container {
       display: flex;
       flex-wrap: wrap;
@@ -60,4 +53,60 @@
       border-radius: 20px;
       font-size: 14px;
       font-weight: bold;
-      box-shadow: 0 3px 8px rgba(17
+      box-shadow: 0 3px 8px rgba(171, 71, 188, 0.3);
+    }
+    .card {
+      background: #f8f5fc;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 16px;
+      border-left: 6px solid #ab47bc;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    }
+    .card h3 { margin-top: 0; color: #4a148c; }
+    a { color: #8e24aa; text-decoration: none; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>สวัสดี! ยินดีต้อนรับสู่พอร์ตโฟลิโอของ Runchaya 👋</h1>
+      <img src="https://github.com/user-attachments/assets/61102d1b-5eb1-4ec0-9739-c0e695a9eef0" alt="Runchaya">
+    </div>
+
+    <h2>🧑‍💻 เกี่ยวกับฉัน (About Me)</h2>
+    <p>สวัสดี! ฉันชื่อ <strong>Runchaya</strong> (รัญชยา) ปัจจุบันกำลังศึกษาในรายวิชาการพัฒนาระบบ มีความสนใจในการออกแบบเว็บไซต์ และการพัฒนาซอฟต์แวร์ เพื่อผลงานที่ใช้งานได้จริงและตอบโจทย์ผู้ใช้งาน</p>
+    <ul>
+      <li>🎓 <strong>การศึกษา:</strong> กำลังศึกษาด้านเทคโนโลยีสารสนเทศ</li>
+      <li>🌱 <strong>ทักษะที่กำลังพัฒนา:</strong> HTML, CSS, JavaScript, Git & GitHub</li>
+      <li>📫 <strong>ติดต่อฉัน:</strong> <a href="https://github.com/Runchaya52" target="_blank">GitHub: @Runchaya52</a></li>
+    </ul>
+
+    <h2>🛠️ ทักษะและความสามารถ (Skills)</h2>
+    <div class="skills-container">
+      <span class="badge">HTML</span>
+      <span class="badge">CSS</span>
+      <span class="badge">JavaScript</span>
+      <span class="badge">Python</span>
+      <span class="badge">Git & GitHub</span>
+      <span class="badge">VS Code</span>
+      <span class="badge">Figma</span>
+      <span class="badge">System Analysis</span>
+    </div>
+
+    <h2>🚀 ผลงานของฉัน (My Projects)</h2>
+    <div class="card">
+      <h3>1. โปรเจกต์ระบบจัดการข้อมูล (รายวิชาการพัฒนาระบบ)</h3>
+      <p><strong>รายละเอียด:</strong> ออกแบบและพัฒนาระบบเพื่อช่วยจัดการข้อมูลให้เป็นระเบียบและค้นหาง่ายขึ้น</p>
+      <p><strong>เทคโนโลยีที่ใช้:</strong> HTML, CSS, JavaScript | <strong>สถานะ:</strong> 🟡 กำลังพัฒนา</p>
+    </div>
+
+    <div class="card">
+      <h3>2. เว็บไซต์แนะนำตัว (Personal Portfolio)</h3>
+      <p><strong>รายละเอียด:</strong> จัดทำหน้าโปรไฟล์และรวบรวมผลงานส่วนตัวบน GitHub</p>
+      <p><strong>เทคโนโลยีที่ใช้:</strong> Markdown, HTML, GitHub | <a href="https://github.com/Runchaya52/Runchaya-" target="_blank">ดูหน้าโปรไฟล์</a></p>
+    </div>
+  </div>
+</body>
+</html>
